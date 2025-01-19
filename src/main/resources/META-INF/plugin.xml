@@ -1,0 +1,17 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>dev.coolrequest.sese</id>
+
+    <name>Sese</name>
+
+    <description><![CDATA[
+            涩涩背景图片切换器
+  ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <statusBarWidgetFactory implementation="dev.coolrequest.sese.StatusBarNextWidgetFactory"/>
+
+    </extensions>
+</idea-plugin>
